@@ -4,6 +4,7 @@ import Dice from './Dice.js';
 import RollButton from './RollButton.js';
 import PlayerName from './PlayerName.js';
 import { useState } from 'react';
+import Scores from './Scores.js';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 				<Dice cantidad="5" roll={roll} />
     	</main>
 			<RollButton roll_func={roll_dice}/>
+			<Scores />
 		</div>
   );
 }

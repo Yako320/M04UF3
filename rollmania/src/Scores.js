@@ -1,14 +1,14 @@
-import './Scores.css';
+//import './Scores.css';
 
-function Scores() {
+function Scores(props) {
   return (
-		<div className="Scores">
+		<section className="Scores">
 			<h2>Scores</h2>
 			<ol>
-				<li>
-			<ol>
-		</div>
+				<li>Jacinto: 33</li>
+			</ol>
+		</section>
   );
 }
 
-export default App;
+export default Scores;
